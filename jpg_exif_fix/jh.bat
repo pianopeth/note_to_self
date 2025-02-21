@@ -1,0 +1,2 @@
+jhead -ft *.jpg
+pause
