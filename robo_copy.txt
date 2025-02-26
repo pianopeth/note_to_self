@@ -1,0 +1,1 @@
+robocopy "[source]" "[destination]" /V /S /E /J /R:0 /W:0
