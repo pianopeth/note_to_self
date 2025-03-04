@@ -1,0 +1,14 @@
+For anyone else having this, Windows defender won't restore the files because they are dangerous so they don't even appear in history.  
+You gotta open the cmd, then run this command to navigate to the Windows Defender folder  
+
+cd "%ProgramFiles%\Windows Defender"  
+
+then run this to see the quarantined files that won't appear  
+
+MpCmdRun.exe -restore -listall  
+
+Then run this command to restore the files  
+
+MpCmdRun.exe -restore -name WriteThreatNameHere  
+
+and you are done  
